@@ -27,3 +27,21 @@ body {
 	font-size: 25px;
 
 }
+
+.icons {
+	margin-top: auto;
+	margin-bottom: 10px;	
+	padding-left: 15%;
+}
+
+.icons img {
+	width: 30px;
+	margin-left: 15%;
+}
+
+.item-desc {
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	color: grey;
+	text-align: center;
+}
