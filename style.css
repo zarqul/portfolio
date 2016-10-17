@@ -1,0 +1,13 @@
+h1 {
+	font-family: 'Architects Daughter', cursive;
+}
+
+body {
+	max-width: 960px;
+}
+
+.featured {
+	color: grey;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+}
