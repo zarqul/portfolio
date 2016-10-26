@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Zarqul Tech Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="framework/css/main.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Architects+Daughter" rel="stylesheet">
 		<script>
@@ -18,35 +18,25 @@
 </script>
 	</head>
 	<body>
+	<div class="container">
 		<div class="row">
-			<div class="col-2"><img src="http://www.placehold.it/145x130"></div>
-			<div class="col-6 icons"><a href="mailto:joergen@zarqul.no"><img src="images/mail.png"></a><a href="https://facebook.com/zarqultech"><img src="images/facebook.png"></a><a href="https://github.com/zarqul"><img src="images/github.png"></a></div>
-			<div class="col-4" style="text-align: right;"><h1>Zarqul Tech<br />Portfolio</h1></div>
+			<div class="col-md-2"><img class="img-responsive logo" src="images/logo.png"></div>
+			<div class="col-md-10 text-right name"><h1>Zarqul Tech</h1><h4>Portfolio</h4></div>
 		</div>
 
 		<div class="row">
-			<div class="col-12"><img src="images/programming.png"></div>
+			<div class="col-md-12"><img class="img-responsive main-img" src="images/programming.png"></div>
 		</div>
 		
 		<div class="row">
-			<div class="col-12 featured">Featured projects</div>
+			<div class="col-md-12 featured">Featured projects</div>
 		</div>
 
-		<div class="row">
-			<div class="col-4 item"><a href="http://tech.zarqul.it/ppcal/"><img src="images/polar.png"></a></div>
-			<div class="col-4 item"><img src="http://placekitten.com/310/200"></div>
-			<div class="col-4 item"><img src="http://placekitten.com/310/200"></div>
+		<div class="row text-center">
+			<div class="col-md-4 item-text"><a href="http://tech.zarqul.it/ppcal/"><img class="img-responsive" src="images/ppcal.png"><p class="item">Polar Party 25 - Get Cyberbunk'd</p><p class="item-desc">Event-timer for stage shows</p></a></div>
+			<div class="col-md-4 item"><img class="img-responsive" src="http://placekitten.com/400/250"><p>Placeholder 2</p><p>PH2</p></div>
+			<div class="col-md-4 item"><img class="img-responsive" src="http://placekitten.com/400/250"><p>Placeholder 3</p><p>PH3</p></div>
 		</div>
-
-		<div class="row">
-			<div class="col-4 item-text">Polar Party 25 - Get Cyberbunk'd</div>
-			<div class="col-4 item-text">Placeholder 2</div>
-			<div class="col-4 item-text">Placeholder 3</div>
-		</div>
-		<div class="row">
-			<div class="col-4 item-desc">Event-timer for stage shows</div>
-			<div class="col-4 item-desc">PH 2</div>
-			<div class="col-4 item-desc">PH 3</div>
-		</div>
+	</div>
 	</body>
 </html>
