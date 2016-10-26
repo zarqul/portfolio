@@ -36,4 +36,5 @@ body {
 .featured-title .featured-text a:link, a:visited, a:hover {
 	font-style: none;
 	color: black;
+	text-decoration: none;
 }
