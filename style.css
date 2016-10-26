@@ -10,3 +10,25 @@ body {
 .name {
 	padding-top: 25px;
 }
+
+.featured {
+	font-family: 'Amatic SC', bold;
+	color: grey;
+	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+
+.featured-title {
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	margin-bottom: 0;
+
+}
+
+.featured-text {
+	font-family: 'Amatic SC', thin;
+	color: grey;
+	font-size: 20px;
+}
